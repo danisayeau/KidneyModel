@@ -85,7 +85,7 @@
     var loadedMeshes =[];
     
 //Make Objects and meshes????
-        textureLoader.load ('/Assets/RKHPcopy.jpg', function (texture) { 
+        textureLoader.load ('/Assets/RKHP copy.jpg', function (texture) { 
         displacementMap.load('/Assets/RKDisplace.jpg', function (displace){                 
         bumpMap.load('/Assets/RKBump.jpg', function (norm){   
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
@@ -130,7 +130,7 @@
     });
 
 
-         textureLoader.load (/Assets/RKUHP.jpg', function (texture) {
+         textureLoader.load ('/Assets/RKUHP.jpg', function (texture) {
          displacementMap.load('/Assets/RKUDisplace.jpg', function (displace){
          bumpMap.load('/Assets/RKUBump.jpg', function (norm){                 
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
