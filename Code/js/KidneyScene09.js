@@ -85,11 +85,11 @@
     var loadedMeshes =[];
     
 //Make Objects and meshes????
-        textureLoader.load ('../Assets/RKHP copy.jpg', function (texture) { 
-        displacementMap.load('../Assets/RKDisplace.jpg', function (displace){                 
-        bumpMap.load('../Assets/RKBump.jpg', function (norm){   
+        textureLoader.load ('/Assets/RKHP copy.jpg', function (texture) { 
+        displacementMap.load('/Assets/RKDisplace.jpg', function (displace){                 
+        bumpMap.load('/Assets/RKBump.jpg', function (norm){   
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('../Assets/RKLP.obj', function (object) {
+        objLoader.load('/Assets/RKLP.obj', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                 var mat = new THREE.MeshPhysicalMaterial({
