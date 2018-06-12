@@ -85,7 +85,7 @@
     var loadedMeshes =[];
     
 //Make Objects and meshes????
-        textureLoader.load ('/Assets/RKHP copy.jpg', function (texture) { 
+        textureLoader.load ('/Assets/RKHPcopy.jpg', function (texture) { 
         displacementMap.load('/Assets/RKDisplace.jpg', function (displace){                 
         bumpMap.load('/Assets/RKBump.jpg', function (norm){   
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
@@ -130,11 +130,11 @@
     });
 
 
-         textureLoader.load ('.../Assets/RKUHP.jpg', function (texture) {
-         displacementMap.load('.../Assets/RKUDisplace.jpg', function (displace){
-         bumpMap.load('.../Assets/RKUBump.jpg', function (norm){                 
+         textureLoader.load (/Assets/RKUHP.jpg', function (texture) {
+         displacementMap.load('/Assets/RKUDisplace.jpg', function (displace){
+         bumpMap.load('/Assets/RKUBump.jpg', function (norm){                 
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('.../Assets/RKULP.OBJ', function (object) {
+        objLoader.load('/Assets/RKULP.OBJ', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                 var mat = new THREE.MeshPhysicalMaterial({
@@ -173,11 +173,11 @@
         }); 
     });
 
-         textureLoader.load ('.../Assets/LKUHP.jpg', function (texture) {                 
-         displacementMap.load('.../Assets/LKU-Displace.jpg', function (displace){ 
-         bumpMap.load('.../Assets/LKUBump.jpg', function (norm){ 
+         textureLoader.load ('/Assets/LKUHP.jpg', function (texture) {                 
+         displacementMap.load('/Assets/LKU-Displace.jpg', function (displace){ 
+         bumpMap.load('/Assets/LKUBump.jpg', function (norm){ 
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('.../Assets/LKULP.OBJ', function (object) {
+        objLoader.load('/Assets/LKULP.OBJ', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                 var mat = new THREE.MeshPhysicalMaterial({
@@ -216,11 +216,11 @@
         });
     });
 
-        textureLoader.load ('.../Assets/LKHP.jpg', function (texture) { 
-        displacementMap.load('.../Assets/LKDisplace.jpg', function (displace){  
-        bumpMap.load('.../Assets/LKBump.jpg', function (norm){               
+        textureLoader.load ('/Assets/LKHP.jpg', function (texture) { 
+        displacementMap.load('/Assets/LKDisplace.jpg', function (displace){  
+        bumpMap.load('/Assets/LKBump.jpg', function (norm){               
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('.../Assets/LKLP.OBJ', function (object) {
+        objLoader.load('/Assets/LKLP.OBJ', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                 var mat = new THREE.MeshPhysicalMaterial({
@@ -261,11 +261,11 @@
 
 
 
-        textureLoader.load ('.../Assets/AortaHP.jpg', function (texture) { 
-        displacementMap.load('.../Assets/Aorta-Displace.jpg', function (displace){
-        bumpMap.load('.../Assets/AortaBump.jpg', function (norm){                
+        textureLoader.load ('/Assets/AortaHP.jpg', function (texture) { 
+        displacementMap.load('/Assets/Aorta-Displace.jpg', function (displace){
+        bumpMap.load('/Assets/AortaBump.jpg', function (norm){                
          //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('.../Assets/AortaLP.OBJ', function (object) {
+        objLoader.load('/Assets/AortaLP.OBJ', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                  var mat = new THREE.MeshPhysicalMaterial({
@@ -304,11 +304,11 @@
         }); 
     });
 
-    textureLoader.load ('.../Assets/IVC2018.jpg', function (texture) { 
-    displacementMap.load('.../Assets/IVC-Displace.jpg', function (displace){                  
-    bumpMap.load('.../Assets/IVCBump.jpg', function (norm){       
+    textureLoader.load ('/Assets/IVC2018.jpg', function (texture) { 
+    displacementMap.load('/Assets/IVC-Displace.jpg', function (displace){                  
+    bumpMap.load('/Assets/IVCBump.jpg', function (norm){       
         //load the given .obj file from the 'high' or 'low' folder based on user's graphics quality preference
-        objLoader.load('.../Assets/IVCLP.OBJ', function (object) {
+        objLoader.load('/Assets/IVCLP.OBJ', function (object) {
         //objLoader by default loads .obj files in as bufferGeometry (not straight geometry)
                object.traverse(function (child) { //traverse iterates contained function over all children of object
                  var mat = new THREE.MeshPhysicalMaterial({
