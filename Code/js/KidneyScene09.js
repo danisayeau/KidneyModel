@@ -5,7 +5,7 @@
     var containerWidth, containerHeight;
     var controls, lights;
 
-    //post pro vars
+    //post pro var
     var depthMaterial, depthTarget, composer;
     var effectComposer;
     var ssaoPass;
